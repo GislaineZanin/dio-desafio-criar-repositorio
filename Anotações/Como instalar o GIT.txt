@@ -1,0 +1,59 @@
+Como fazer o download?
+
+No Sistema Operacional Windows: 
+1 - Acesse o site oficial (https://gitforwindows.org/) e faça o download do instalador do GIT para Windows.
+2 - Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de instalação. Basta seguir as instruções na tela, clicando em Next. Ao término, clique em Finish para concluir com êxito a instalação.
+3 - Abra o prompt de comando e digite os seguintes comandos no terminal:
+
+	git config --global user.name "Uzumaki Naruto"
+	git config --global user.email "exemplo@seuemail.com.br"
+
+Nota: Lembre de substituir Uzumaki Naruto e exemplo@seuemail.com.br com seus dados. Qualquer commit criado posteriormente será associado à esses dados.
+
+No MacOS:
+Existem muitas maneiras de instalar o GIT em um Mac. Inclusive, há uma chance de que o GIT já esteja no seu computador se você tiver o XCode instalado. Execute o seguinte comando no terminal para verificar:
+
+	git --version
+
+Se você obtiver uma resposta como git version 2.7.0 (Apple Git-66), então você está com sorte. Caso você não tenha resposta, execute os seguintes passos:
+
+1 - Visite o site: (https://sourceforge.net/projects/git-osx-installer/files/) e faça o download do instalador mais recente para Mac.
+2 - Siga as instruções na tela e conclua a instalação.
+3 - Tente novamente o comando git --version para confirmar se a instalação foi bem sucedida.
+4 - Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT:
+
+	git config --global user.name "Uchiha Sasuke"
+	git config --global user.email "exemplo@seuemail.com.br"
+
+Nota: Lembre-se de substituir Uchiha Sasuke e exemplo@seuemail.com.br com seus dados. Qualquer commit criado posteriormente será associado à esses dados.
+
+No Linux:
+Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação apt-get ou yum. Instalar o GIT não é diferente:
+Para usuários Debian/Ubuntu (apt-get):
+1 - Abra o terminal e execute os seguintes comandos:
+
+	Sudo apt-get update 
+	Sudo apt-get install git
+
+2 - Verifique se a instalação ocorreu com sucesso usando git --version.
+3 - Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT:
+
+	git config --global user.name "Haruno Sakura"
+	git config --global user.email "exemplo@seuemail.com.br"
+
+Nota: Lembre-se de substituir Haruno Sakura e exemplo@seuemail.com.br com seus dados. Qualquer commit criado posteriormente será associado à esses dados.
+
+Você pode baixar pacotes do GIT usando yum e dnf.
+1 - Abra o terminal e execute os seguintes comandos:
+
+	Sudo dnf install git
+	Sudo yum install git
+
+2 - Verifique se a instalação ocorreu com sucesso usando git --version.
+3 - Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT:
+
+	git config --global user.name "Hyuuga Hinata"
+	git config --global user.email "exemplo@seuemail.com.br"
+
+Nota: Lembre-se de substituir Hyuuga Hinata e exemplo@seuemail.com.br com seus dados. Qualquer commit criado posteriormente será associado à esses dados.
+
